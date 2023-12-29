@@ -58,7 +58,6 @@ export class AjoutCoursComponent {
 
       const image: Image = {
         file: file,
-        // @ts-ignore
         url: null
       }
       this.course.image=image;
