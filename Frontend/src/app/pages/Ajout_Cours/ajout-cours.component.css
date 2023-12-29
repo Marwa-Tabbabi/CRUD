@@ -1,0 +1,52 @@
+.container {
+    max-width: 900px;
+    margin: 5px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #4c4c96;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="file"] {
+    border: none;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #7454d5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #49338a;
+}

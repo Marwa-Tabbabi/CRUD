@@ -1,0 +1,77 @@
+
+<div class="container" style="margin-left: -10px">
+    <div class="d-flex">
+        <div class="d-flex align-items-center" id="navbar">
+            <img src="https://cdn-icons-png.flaticon.com/512/219/219983.png" style="width: 45px; height: 45px">
+            <a class="text-decoration-none fs14 ps-2">Ali TB</a>
+        </div>
+    </div>
+    <div class="d-md-flex">
+        <ul id="navbar-items" class="p-0" style="height: 675px">
+
+
+            <li style="margin-top: 10px">
+                <span class="ps-3 name">Course</span>
+            </li>
+        </ul>
+        <div id="topnavbar">
+            <div >
+                <table class="table table-borderless">
+                    <thead>
+                    <h2 style="margin-left: 20px">List of Courses </h2>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr *ngFor="let course of courses | paginate: { itemsPerPage: 5, currentPage: p }">
+                        <td>{{ course.id }}</td>
+                        <td>{{ course.title }}</td>
+                        <td>
+                            <a (click)="deleteData(course.id)" class="btn btn-primary"><i style="color: white" class="bi bi-trash"></i></a>
+                            <a class="btn" (click)="openDialog()" style="margin-left: 10px;background-color: #ce5050" mat-dialog-close>
+                                <i style="color: white" class="bi bi-pencil-square"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+                <div class="text-center">
+                    <pagination-controls (pageChange)="p = $event"></pagination-controls>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

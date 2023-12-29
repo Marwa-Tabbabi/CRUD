@@ -1,0 +1,153 @@
+.container {
+    height: 400px;
+    width: 100%;
+    background-image: url("https://gestionsucces.ca/wp-content/uploads/2021/05/comment-ameliorer-communication-entreprise.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(252, 252, 252, 0.6);
+    padding: 20px;
+
+}
+
+.content h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: bold;
+
+}
+
+.btn-register {
+    background-color: #af2f64;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.courses-section {
+    text-align: center;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.courses-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.btn-view-more {
+    background-color: #af2f64;
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 660px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.course {
+    flex-basis: calc(33.33% - 40px);
+    margin: 2px;
+    text-align: center;
+}
+
+.course img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.course h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.course p {
+    font-size: 16px;
+    color: #af2f64;
+    font-weight: bold;
+}
+
+
+
+.contact-us {
+    background-color: #f1b255;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    max-width: 850px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.contact-us h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+label {
+    display: block;
+    margin-left: -350px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: rgba(250, 247, 247, 0.44);
+}
+
+button {
+    background-color: #af2f64;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
